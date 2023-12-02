@@ -1,0 +1,8 @@
+### Send POST request to get a prediction of the classification of a post
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "source": "x",
+  "content": "weve got ceo making minute ordinary worker making year something wrong"
+}
